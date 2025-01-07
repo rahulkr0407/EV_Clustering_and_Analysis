@@ -2,6 +2,10 @@ Overview
 
 This project leverages machine learning techniques to analyze and cluster electric vehicle (EV) population data across different counties. By applying clustering algorithms and classification models, the project identifies patterns and insights about electric vehicle adoption trends.
 
+
+
+
+
 Key Features
 
 Data Cleaning and Preprocessing: Handles missing values, converts string numbers to numeric, and scales features for analysis.
@@ -13,6 +17,10 @@ Classification Model: Trains a Random Forest Classifier to predict high EV adopt
 Visualization: Provides detailed visualizations such as feature importance, PCA plots, dendrograms, and clustering scatterplots.
 
 Evaluation Metrics: Uses silhouette scores and classification reports to evaluate model performance.
+
+
+
+
 
 Dataset
 
@@ -47,6 +55,9 @@ seaborn
 
 
 
+
+
+
 How to Run
 
 Clone the repository:
@@ -62,6 +73,10 @@ Install the required dependencies:
 pip install -r requirements.txt
 
 Run the main script:
+
+
+
+
 
 
 
@@ -81,6 +96,11 @@ Dendrogram: Visualizes the hierarchical clustering process.
 
 GMM Clustering: Scatterplot of clusters formed by Gaussian Mixture Model.
 
+
+
+
+
+
 Results
 
 Random Forest Classifier: Achieved an accuracy of ~XX% (update based on results).
@@ -89,18 +109,4 @@ Silhouette Score: K-Means clustering achieved a silhouette score of ~XX (update 
 
 Insights: Counties with higher BEVs and PHEVs tend to have a higher percentage of EV adoption.
 
-Future Work
 
-Explore additional clustering techniques such as DBSCAN.
-
-Integrate geographical data for spatial analysis of EV adoption.
-
-Enhance feature engineering to include economic and demographic data.
-
-Contributions
-
-Contributions are welcome! Feel free to open issues or submit pull requests.
-
-License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
